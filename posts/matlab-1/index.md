@@ -16,7 +16,7 @@
 
 
 
-![基向量](/images/基向量.png)
+![基向量](https://onepl3.github.io/content/images/基向量.png)
 $$
 f(x) = \frac{{{A_0}}}{2} + \sum\limits_{k = 1}^\infty  {({A_k}\cos (\frac{{\pi kx}}{l}) + {B_k}\sin (\frac{{\pi kx}}{l}))}
 $$
@@ -76,7 +76,7 @@ end
 
 ### 可视效果
 
-![MPhoto](/images/MPhoto.png)
+![MPhoto](https://onepl3.github.io/content/images/MPhoto.png)
 
 
 
