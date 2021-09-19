@@ -14,7 +14,7 @@
 
 ​	从向量空间的角度来对傅里叶级数进行理解，N维空间中的向量可以分解成N个基向量的线性组合。
 
-![基向量](D:\PengL\Blog\content\images\基向量.png)
+![基向量](https://github.com/OnePl3/OnePl3.github.io.source/blob/bb34e539b61e6706f984c76515ce2108a0cf765c/content/images/%E5%9F%BA%E5%90%91%E9%87%8F.png)
 $$
 f(x) = \frac{{{A_0}}}{2} + \sum\limits_{k = 1}^\infty  {({A_k}\cos (\frac{{\pi kx}}{l}) + {B_k}\sin (\frac{{\pi kx}}{l}))}
 $$
@@ -76,7 +76,7 @@ end
 
 ### 可视效果
 
-![MPhoto](D:\PengL\Blog\content\images\MPhoto.png)
+![MPhoto](https://github.com/OnePl3/OnePl3.github.io.source/blob/bb34e539b61e6706f984c76515ce2108a0cf765c/content/images/MPhoto.png)
 
 
 
