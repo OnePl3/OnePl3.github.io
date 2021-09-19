@@ -12,8 +12,7 @@
 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div></div><div class="details toc" id=toc-static kept=true><div class="details-summary toc-title"><span>Contents</span>
 <span><i class="details-icon fas fa-angle-right"></i></span></div><div class="details-content toc-content" id=toc-content-static></div></div><div class=content id=content><h1 id=matlab-1fourier-analysis-basic>Matlab 1：Fourier Analysis Basic</h1><p>(Matlab实现)</p><h3 id=实现目标>实现目标</h3><p>​ 利用傅里叶级数思想：每一个函数都可以展开为傅里叶级数（周期函数/非周期函数），通过不断叠加具有不同的周期的三角函数，可以使得叠加结果逐渐逼近目标函数。</p><h3 id=实现思路>实现思路</h3><p>​ 从向量空间的角度来对傅里叶级数进行理解，N维空间中的向量可以分解成N个基向量的线性组合。</p><p><figure><img src=/images/%E5%9F%BA%E5%90%91%E9%87%8F.png alt=基向量></figure><span class=math>\(
 f(x) = \frac{{{A_0}}}{2} + \sum\limits_{k = 1}^\infty {({A_k}\cos (\frac{{\pi kx}}{l}) + {B_k}\sin (\frac{{\pi kx}}{l}))}
-\)</span>
-​ 把傅里叶级数看成是空间里的某个向量，然后我们再定义一个内积，让这些基向量是正交单位基向量，那么傅里叶系数就可以写成如下的形式：</p><p><span class=math>\[
+\)</span></p><p>​ 把傅里叶级数看成是空间里的某个向量，然后我们再定义一个内积，让这些基向量是正交单位基向量，那么傅里叶系数就可以写成如下的形式：</p><p><span class=math>\[
 {A_0} = \frac{1}{l}\int_{ - l}^l {f(x)dx} = < f(x),1 > *\Delta x
 \]</span></p><p><span class=math>\[
 {A_k} = \frac{1}{l}\int_{ - l}^l {f(x)\cos (\frac{{\pi kx}}{l})dx}= < f(x),\cos (\frac{{k\pi x}}{l}) > *\Delta x
